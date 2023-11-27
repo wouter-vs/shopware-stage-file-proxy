@@ -1,0 +1,7 @@
+services:
+    Mosky\ShopwareStageFileProxyBundle\EventListener\ImageExceptionListener:
+        arguments:
+          - '%env(string:STAGE_FILE_PROXY_REMOTE_URL)%'
+          - '@logger'
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception }

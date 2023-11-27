@@ -1,0 +1,22 @@
+{
+  "name": "mosky/shopware-stage-file-proxy-bundle",
+  "type": "symfony-bundle",
+  "version": "1.0.0",
+  "description": "Mosky ShopwareStageFileProxyBundle",
+  "keywords": ["development", "shopware", "images"],
+  "homepage": "https://www.mosky.be",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wouter Van Scharen",
+      "email": "wouter@mosky.be"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "symfony/http-kernel": "~4.0 || ^5.0 || ^6.0"
+  },
+  "autoload": {
+    "psr-4": { "Mosky\\ShopwareStageFileProxyBundle\\": "" }
+  }
+}
